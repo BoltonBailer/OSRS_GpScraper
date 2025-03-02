@@ -2,7 +2,7 @@
 # **Reflection Report**
 
 ## **Name and Explanation of the Document**
-The document used is the Wikipedia article on **Retrieval-Augmented Generation (RAG)**. This article explains the methodology, applications, and advantages of using RAG in AI systems. It provides an overview of how RAG enhances generative AI by retrieving relevant context from external sources.
+This python script gets the info for a gold selling website and saves it at a .txt, then the second python scripts reads in the .txt file and update the chat prompt so it can give out current pricing info on gold.
 
 ---
 ## **How the Program Works**
@@ -129,25 +129,20 @@ The generated answers were accurate and contextually grounded. They demonstrated
 ## **Example Queries and Outputs**
 
 ### **Query 1:**  
-**_What is Retrieval-Augmented Generation?_**  
-- **Retrieved Content:**  
-  RAG is a machine learning technique that enhances text generation by retrieving relevant context from external documents or databases.  
-- **Generated Response:**  
-  Retrieval-Augmented Generation is a technique in AI where text generation is improved by retrieving external context relevant to the query.
+Q; What is the current OSRS gold price?
+A; As of now, OSRS gold is selling for approximately **$0.2028 per million**. Prices may fluctuate based on seller availability.
 
 ### **Query 2:**  
-**_How does RAG differ from standard models?_**  
-- **Retrieved Content:**  
-  Standard models rely solely on pre-trained knowledge, while RAG incorporates retrieval to ground responses in external data.  
-- **Generated Response:**  
-  RAG combines retrieval and generation to ground outputs in specific documents, unlike standard generative models that rely solely on pre-trained knowledge.
+Q; Which seller has the best price for OSRS gold?
+A;The best price for OSRS gold is currently **$0.2028 per M**, offered by **Searchy**. Other sellers include:
+- **RPGStash** - $0.203 per M
+- **Rhynogames** - $0.209 per M
+Prices may change, so check back for updates.
 
 ### **Query 3:**  
-**_What are the advantages of RAG?_**  
-- **Retrieved Content:**  
-  RAG improves the accuracy of generative models by retrieving precise context, making responses more reliable and less prone to hallucination.  
-- **Generated Response:**  
-  Retrieval-Augmented Generation enhances accuracy and relevance by grounding responses in specific retrieved data, reducing hallucinations.
+Q;How much stock does Searchy have?
+A;Seller **Searchy** currently has **8,770 M OSRS gold in stock**. Minimum purchase requirement is **200 M**.
+
 
 ---
 
